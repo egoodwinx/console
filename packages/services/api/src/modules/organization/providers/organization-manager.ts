@@ -541,8 +541,7 @@ export class OrganizationManager {
             <mj-body>
               <mj-section>
                 <mj-column>
-                  <mj-image width="150px" src="https://graphql-hive.com/logo.png"></mj-image>
-                  <mj-divider border-color="#ca8a04"></mj-divider>
+                <mj-image width="200px" src="https://the-guild.dev/graphql/hive/github-org-image.png"></mj-image>
                   <mj-text>
                     Someone from <strong>${organization.name}</strong> invited you to join GraphQL Hive.
                   </mj-text>.
@@ -677,7 +676,7 @@ export class OrganizationManager {
           <mj-body>
             <mj-section>
               <mj-column>
-                <mj-image width="150px" src="https://graphql-hive.com/logo.png"></mj-image>
+                <mj-image width="200px" src="https://the-guild.dev/graphql/hive/github-org-image.png"></mj-image>
                 <mj-divider border-color="#ca8a04"></mj-divider>
                 <mj-text>
                   ${member.user.displayName} wants to transfer the ownership of the <strong>${organization.name}</strong> organization.
