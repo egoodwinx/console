@@ -98,7 +98,7 @@
     "turbo": "2.3.3",
     "typescript": "5.7.3",
     "vite-tsconfig-paths": "5.1.4",
-    "vitest": "3.0.5"
+    "vitest": "3.1.1"
   },
   "pnpm": {
     "overrides.esbuild": "To address CVE: https://github.com/graphql-hive/console/security/dependabot/259",
@@ -125,7 +125,7 @@
       "@theguild/editor@1.2.5": "patches/@theguild__editor@1.2.5.patch",
       "eslint@8.57.1": "patches/eslint@8.57.1.patch",
       "@graphql-eslint/eslint-plugin@3.20.1": "patches/@graphql-eslint__eslint-plugin@3.20.1.patch",
-      "got@14.4.5": "patches/got@14.4.5.patch",
+      "got@14.4.7": "patches/got@14.4.7.patch",
       "slonik@30.4.4": "patches/slonik@30.4.4.patch",
       "@oclif/core@3.26.6": "patches/@oclif__core@3.26.6.patch",
       "oclif": "patches/oclif.patch",
@@ -137,7 +137,8 @@
       "p-cancelable@4.0.1": "patches/p-cancelable@4.0.1.patch",
       "bentocache": "patches/bentocache.patch",
       "nextra": "patches/nextra.patch",
-      "nextra-theme-docs": "patches/nextra-theme-docs.patch"
+      "nextra-theme-docs": "patches/nextra-theme-docs.patch",
+      "@graphql-codegen/schema-ast": "patches/@graphql-codegen__schema-ast.patch"
     }
   }
 }
